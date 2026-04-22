@@ -1,18 +1,22 @@
-# BDB-Labs Aira-scanner
+# BDB-Labs Homebrew Tap
 
-## How do I install these formulae?
+This tap publishes the AIRA CLI for Homebrew.
 
-`brew install bdb-labs/aira-scanner/<formula>`
+## Install
 
-Or `brew tap bdb-labs/aira-scanner` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "bdb-labs/aira-scanner"
-brew "<formula>"
+```bash
+brew install BDB-Labs/aira-scanner/aira
 ```
 
-## Documentation
+Or tap once and use the short name:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap BDB-Labs/aira-scanner
+brew install aira
+```
+
+## Upstream
+
+- Scanner repo: <https://github.com/BDB-Labs/aira-scanner>
+- Release page: <https://github.com/BDB-Labs/aira-scanner/releases>
+- Web scanner: <https://aira.bageltech.net>
